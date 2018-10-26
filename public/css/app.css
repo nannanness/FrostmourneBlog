@@ -4516,7 +4516,6 @@ input[type="button"].btn-block {
   list-style: none;
 }
 
-
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -10551,6 +10550,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  /* sidebar */
 }
 
 footer a {
@@ -10583,5 +10583,46 @@ footer img.brand-icon {
 footer .slogon {
   font-size: 13px;
   font-weight: bold;
+}
+
+footer aside section {
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer aside section:first-child {
+  border: 0;
+  padding-top: 0;
+}
+
+footer aside section span {
+  display: block;
+  margin-bottom: 3px;
+  line-height: 1;
+}
+
+footer section.user_info {
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer section.user_info .gravatar {
+  float: none;
+  max-width: 70px;
+}
+
+footer section.user_info h1 {
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  margin-bottom: 3px;
+  margin-top: 15px;
+}
+
+footer .gravatar {
+  float: left;
+  margin-right: 10px;
+  max-width: 50px;
+  border-radius: 50%;
 }
 
